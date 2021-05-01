@@ -27,7 +27,7 @@ import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
 
-
+import promo2 from "assets/img/theme/bus.jpg";
 import promo1 from "assets/img/theme/333.jpg";
 import cardImg from "assets/img/theme/coockies.jpg";
 
@@ -53,7 +53,7 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -148,7 +148,7 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            <i className="fa fa-coffee" />
                           </div>
                           <h6 className="text-primary text-uppercase">
                             The Coffee House Project
@@ -182,7 +182,7 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                          <i class="fa fa-heart" aria-hidden="true"></i>
                           </div>
                           <h6 className="text-success text-uppercase">
                             salmon cookies
@@ -216,7 +216,8 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                          <i class="fa fa-bus" aria-hidden="true"></i>
+
                           </div>
                           <h6 className="text-warning text-uppercase">
                             bus mall
@@ -278,7 +279,7 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-settings-gear-65" />
+                              <i className="ni ni-satisfied" />
                             </Badge>
                           </div>
                           <div>
@@ -295,7 +296,7 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-html5" />
+                              <i className="ni ni-satisfied" />
                             </Badge>
                           </div>
                           <div>
@@ -393,6 +394,83 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={promo2}
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    {/* <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-settings-gear-65" />
+                    </div> */}
+                    <h3>Bus mall</h3>
+                    <p>
+                      
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            {/* <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-settings-gear-65" />
+                            </Badge> */}
+                          </div>
+                          <div>
+                            <p className="mb-0">
+                            market analysis on proposed products to test their potential customer interest… before actually putting them into the catalog and getting the manufacturing wheels in motion.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      {/* <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-html5" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">Desserts product</h6>
+                          </div>
+                        </div>
+                      </li> */}
+                      {/* <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="ni ni-satisfied" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                              multiple branches
+                            </h6>
+                          </div>
+                        </div>
+                      </li> */}
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
             </Container>
 
           </section>
@@ -478,7 +556,7 @@ class Landing extends React.Component {
               </svg>
             </div> */}
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg"> */}
             {/* <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -663,8 +741,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container> */}
-          </section>
-          <section className="section section-lg pt-0">
+          {/* </section> */}
+          {/* <section className="section section-lg pt-0"> */}
             {/* <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -757,7 +835,7 @@ class Landing extends React.Component {
                 />
               </svg>
             </div> */}
-          </section>
+          {/* </section> */}
           {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
@@ -833,7 +911,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <Download />
+          {/* <Download /> */}
         </main>
         <CardsFooter />
       </>

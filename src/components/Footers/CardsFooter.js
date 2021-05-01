@@ -44,20 +44,20 @@ class CardsFooter extends React.Component {
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
                   <Link to="/landing-page">
-                    <CardImg
+                    {/* <CardImg
                       alt="..."
                       src={landing}
-                    />
+                    /> */}
                   </Link>
                 </Card>
               </Col>
               <Col className="mb-5 mb-lg-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
                   <Link to="/profile-page">
-                    <CardImg
+                    {/* <CardImg
                       alt="..."
                       src={profile}
-                    />
+                    /> */}
                   </Link>
                 </Card>
               </Col>
