@@ -495,6 +495,7 @@ class Landing extends React.Component {
                     </div>
                     <div className="pl-4">
                       <h4 className="display-3 text-white">about me</h4>
+                      <h5>Rula Al-Qasem</h5>
                       <p className="text-white">
                         Promising self-motivated Trainee with good knowledge of biomedical engineering techniques and processes. Skilled at supporting teams, performing essential duties such as record keeping and inquiries management. Highly resourceful with excellent problem-solving skills
                       </p>
